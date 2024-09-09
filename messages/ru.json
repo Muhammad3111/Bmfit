@@ -1,6 +1,32 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
-  }
+    "HomePage": {
+        "title": "Hello world!",
+        "about": "Go to the about page"
+    },
+    "Hero-1": {
+        "title": "",
+        "programs": [
+            {
+                "title": "Легкие упражнения",
+                "image": "/images/1.svg"
+            },
+            {
+                "title": "Упражнения средней сложности",
+                "image": "/images/2.svg"
+            },
+            {
+                "title": "Упражнения для похудения",
+                "image": "/images/3.svg"
+            },
+            {
+                "title": "Упражнения без оборудования",
+                "image": "/images/3.svg"
+            },
+            {
+                "title": "Тяжелые упражнения",
+                "image": "/images/3.svg"
+            }
+        ],
+        "button": "Начать сейчас"
+    }
 }

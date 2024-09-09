@@ -1,6 +1,32 @@
 {
-  "HomePage": {
-    "title": "Salom dunyo!",
-    "about": "Hayr dunyo"
-  }
+    "HomePage": {
+        "title": "Salom dunyo!",
+        "about": "Hayr dunyo"
+    },
+    "Hero-1": {
+        "title": "Bepul mashqlar to'plami",
+        "programs": [
+            {
+                "title": "Oson mashqlar",
+                "image": "/images/1.svg"
+            },
+            {
+                "title": "O'rtacha qiyin mashq",
+                "image": "/images/2.svg"
+            },
+            {
+                "title": "Vazn yo'qotish uchun mashq",
+                "image": "/images/3.svg"
+            },
+            {
+                "title": "Uskunalarsiz mashq",
+                "image": "/images/3.svg"
+            },
+            {
+                "title": "Qiyin mashqlar",
+                "image": "/images/3.svg"
+            }
+        ],
+        "button": "Hozir boshlang"
+    }
 }

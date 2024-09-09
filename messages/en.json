@@ -1,6 +1,32 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
-  }
+    "HomePage": {
+        "title": "Hello world!",
+        "about": "Go to the about page"
+    },
+    "Hero-1": {
+        "title": "",
+        "programs": [
+            {
+                "title": "Easy Exercises",
+                "image": "/images/1.svg"
+            },
+            {
+                "title": "Moderate Exercises",
+                "image": "/images/2.svg"
+            },
+            {
+                "title": "Weight Loss Exercises",
+                "image": "/images/3.svg"
+            },
+            {
+                "title": "No Equipment Exercises",
+                "image": "/images/3.svg"
+            },
+            {
+                "title": "Hard Exercises",
+                "image": "/images/3.svg"
+            }
+        ],
+        "button": "Start Now"
+    }
 }

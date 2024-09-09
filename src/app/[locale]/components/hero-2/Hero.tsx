@@ -17,6 +17,8 @@ const Hero = () => {
                     View All Products
                 </Button>
             </div>
+
+            <div className="mt-10"></div>
         </div>
     );
 };

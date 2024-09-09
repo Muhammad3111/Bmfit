@@ -1,36 +1,24 @@
+"use client";
+
 import React from "react";
 import HeroTitle from "../../utils/hero-title/HeroTitle";
 import Image from "next/image";
 import Button from "../../utils/button/Button";
+import { useTranslations } from "next-intl";
 
-const heroCardData = [
-    {
-        title: "Beginner Friendly",
-        image: "/images/1.svg",
-    },
-    {
-        title: "Moderate Advanced",
-        image: "/images/2.svg",
-    },
-    {
-        title: "Weight Loss",
-        image: "/images/3.svg",
-    },
-    {
-        title: "No Equipment",
-        image: "/images/3.svg",
-    },
-    {
-        title: "Strength Training",
-        image: "/images/3.svg",
-    },
-];
+type HeroCardType = {
+    title: string;
+    image: string;
+};
 
 const Hero = () => {
+    const t = useTranslations("Hero-1");
+    const heroCardData = t.raw("programs") as Array<HeroCardType>;
+
     return (
         <div className="px-20 pb-10">
             <HeroTitle className="text-white text-3xl mb-6">
-                Free Workout Programs
+                {t("title")}
             </HeroTitle>
 
             <div>
@@ -61,7 +49,7 @@ const Hero = () => {
                                 type="outlined"
                                 className="w-[85%] duration-300 group-hover:bg-extra group-hover:text-black"
                             >
-                                Start Today
+                                {t("button")}
                             </Button>
 
                             {/* <button className="border border-extra text-white text-lg font-semibold w-[85%] py-3 rounded-[20px] duration-500 group-hover:bg-extra group-hover:text-black">
