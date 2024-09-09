@@ -4,7 +4,7 @@
         "about": "Go to the about page"
     },
     "Hero-1": {
-        "title": "",
+        "title": "Бесплатные программы тренировок",
         "programs": [
             {
                 "title": "Легкие упражнения",
@@ -28,5 +28,28 @@
             }
         ],
         "button": "Начать сейчас"
-    }
+    },
+    "Hero-2": {
+    "title": "наши продукты",
+    "viewAllProducts": "Просмотреть все продукты",
+    "products": [
+        {
+            "title": "Сумка",
+            "image": "/images/t-shirt-1.svg"
+        },
+        {
+            "title": "Рубашка",
+            "image": "/images/t-shirt-2.svg"
+        },
+        {
+            "title": "Бутылка",
+            "image": "/images/t-shirt-3.svg"
+        },
+        {
+            "title": "Рубашка",
+            "image": "/images/t-shirt-2.svg"
+        }
+    ]
+}
+
 }

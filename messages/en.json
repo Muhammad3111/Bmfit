@@ -4,7 +4,7 @@
         "about": "Go to the about page"
     },
     "Hero-1": {
-        "title": "",
+        "title": "Free Workout Programs",
         "programs": [
             {
                 "title": "Easy Exercises",
@@ -28,5 +28,27 @@
             }
         ],
         "button": "Start Now"
+    },
+    "Hero-2": {
+        "title": "our products",
+        "viewAllProducts": "View All Products",
+        "products": [
+            {
+                "title": "Bag",
+                "image": "/images/t-shirt-1.svg"
+            },
+            {
+                "title": "Shirt",
+                "image": "/images/t-shirt-2.svg"
+            },
+            {
+                "title": "Bottle",
+                "image": "/images/t-shirt-3.svg"
+            },
+            {
+                "title": "Shirt",
+                "image": "/images/t-shirt-2.svg"
+            }
+        ] 
     }
 }

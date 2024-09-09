@@ -22,13 +22,13 @@ const Hero = () => {
             </HeroTitle>
 
             <div>
-                <div className="grid grid-cols-[repeat(auto-fill,minmax(230px,230px))] gap-6 justify-between">
+                <div className="grid grid-cols-[repeat(auto-fill,minmax(230px,230px))] gap-6 justify-between max-[645px]:justify-center max-[645px]:grid-cols-[repeat(auto-fill,minmax(300px,300px))]">
                     {heroCardData.map((card, index) => (
                         <div
                             key={index}
                             className="flex flex-col items-center gap-10 group"
                         >
-                            <div className="relative w-full h-[500px] cursor-pointer overflow-hidden">
+                            <div className="relative w-full h-[500px] cursor-pointer overflow-hidden max-[645px]:mt-4">
                                 <Image
                                     src={card.image}
                                     alt={card.title}

@@ -28,5 +28,28 @@
             }
         ],
         "button": "Hozir boshlang"
-    }
+    },
+    "Hero-2": {
+    "title": "Bizning mahsulotlarimiz",
+    "viewAllProducts": "Barcha mahsulotlar",
+    "products": [
+        {
+            "title": "Sumka",
+            "image": "/images/t-shirt-1.svg"
+        },
+        {
+            "title": "Ko'ylak",
+            "image": "/images/t-shirt-2.svg"
+        },
+        {
+            "title": "Suv idish",
+            "image": "/images/t-shirt-3.svg"
+        },
+        {
+            "title": "Ko'ylak",
+            "image": "/images/t-shirt-2.svg"
+        }
+    ]
+}
+
 }
