@@ -4,7 +4,7 @@ import Button from "../../utils/button/Button";
 
 const Hero = () => {
     return (
-        <div className="px-20 py-10">
+        <div className="px-20 py-10 xs:px-10">
             <div className="flex items-center justify-between">
                 <HeroTitle className="uppercase text-2xl" prefix>
                     get our merch
