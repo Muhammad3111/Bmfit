@@ -4,19 +4,18 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import LocalSwitcher from "../localeswitcher/LocaleSwitcher";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+
+type MenuItems = {
+  id: number;
+  title: string;
+  path: string;
+};
 
 export default function Navbar() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-
-  const links = [
-    "Home",
-    "About",
-    "Workout Programs",
-    "Recipes",
-    "Store",
-    "Login",
-    "Sign up",
-  ];
+  const t = useTranslations();
+  const Items = t.raw("Navbar") as Array<MenuItems>;
 
   return (
     <div className="px-20 xs:hidden sm:block">
@@ -33,7 +32,7 @@ export default function Navbar() {
         </div>
         <div className="relative flex items-center gap-8">
           <ul className="flex items-center gap-6">
-            {links.map((link, index) => (
+            {Items?.map((link, index) => (
               <li
                 key={index}
                 className="relative flex flex-col"
@@ -41,7 +40,7 @@ export default function Navbar() {
                 onMouseLeave={() => setHoveredIndex(null)}
               >
                 <a href="#" className="text-white font-semibold text-base">
-                  {link}
+                  {link.title}
                 </a>
                 {hoveredIndex === index && (
                   <motion.div

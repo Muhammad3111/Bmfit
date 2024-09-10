@@ -1,54 +1,63 @@
 {
-    "HomePage": {
-        "title": "Hello world!",
-        "about": "Go to the about page"
+  "Navbar": [
+    {
+      "id": 0,
+      "title": "Home",
+      "path": "/"
     },
-    "Hero-1": {
-        "title": "Free Workout Programs",
-        "programs": [
-            {
-                "title": "Easy Exercises",
-                "image": "/images/1.svg"
-            },
-            {
-                "title": "Moderate Exercises",
-                "image": "/images/2.svg"
-            },
-            {
-                "title": "Weight Loss Exercises",
-                "image": "/images/3.svg"
-            },
-            {
-                "title": "No Equipment Exercises",
-                "image": "/images/3.svg"
-            },
-            {
-                "title": "Hard Exercises",
-                "image": "/images/3.svg"
-            }
-        ],
-        "button": "Start Now"
-    },
-    "Hero-2": {
-        "title": "our products",
-        "viewAllProducts": "View All Products",
-        "products": [
-            {
-                "title": "Bag",
-                "image": "/images/t-shirt-1.svg"
-            },
-            {
-                "title": "Shirt",
-                "image": "/images/t-shirt-2.svg"
-            },
-            {
-                "title": "Bottle",
-                "image": "/images/t-shirt-3.svg"
-            },
-            {
-                "title": "Shirt",
-                "image": "/images/t-shirt-2.svg"
-            }
-        ] 
-    }
+    { "id": 1, "title": "About Us", "path": "about-us" },
+    { "id": 2, "title": "Exercises", "path": "exercises" },
+    { "id": 3, "title": "Recipes", "path": "recipes" },
+    { "id": 4, "title": "Shop", "path": "shop" },
+    { "id": 5, "title": "Login", "path": "login" },
+    { "id": 6, "title": "Register", "path": "register" }
+  ],
+  "Hero-1": {
+    "title": "Free Workout Programs",
+    "programs": [
+      {
+        "title": "Easy Exercises",
+        "image": "/images/1.svg"
+      },
+      {
+        "title": "Moderate Exercises",
+        "image": "/images/2.svg"
+      },
+      {
+        "title": "Weight Loss Exercises",
+        "image": "/images/3.svg"
+      },
+      {
+        "title": "No Equipment Exercises",
+        "image": "/images/3.svg"
+      },
+      {
+        "title": "Hard Exercises",
+        "image": "/images/3.svg"
+      }
+    ],
+    "button": "Start Now"
+  },
+  "Hero-2": {
+    "title": "our products",
+    "viewAllProducts": "View All Products",
+    "products": [
+      {
+        "title": "Bag",
+        "image": "/images/t-shirt-1.svg"
+      },
+      {
+        "title": "Shirt",
+        "image": "/images/t-shirt-2.svg"
+      },
+      {
+        "title": "Bottle",
+        "image": "/images/t-shirt-3.svg"
+      },
+      {
+        "title": "Shirt",
+        "image": "/images/t-shirt-2.svg"
+      }
+    ]
+  }
 }

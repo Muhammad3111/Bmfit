@@ -1,55 +1,68 @@
 {
-    "HomePage": {
-        "title": "Salom dunyo!",
-        "about": "Hayr dunyo"
+  "Navbar": [
+    {
+      "id": 0,
+      "title": "Bosh sahifa",
+      "path": "/"
     },
-    "Hero-1": {
-        "title": "Bepul mashqlar to'plami",
-        "programs": [
-            {
-                "title": "Oson mashqlar",
-                "image": "/images/1.svg"
-            },
-            {
-                "title": "O'rtacha qiyin mashq",
-                "image": "/images/2.svg"
-            },
-            {
-                "title": "Vazn yo'qotish uchun mashq",
-                "image": "/images/3.svg"
-            },
-            {
-                "title": "Uskunalarsiz mashq",
-                "image": "/images/3.svg"
-            },
-            {
-                "title": "Qiyin mashqlar",
-                "image": "/images/3.svg"
-            }
-        ],
-        "button": "Hozir boshlang"
-    },
-    "Hero-2": {
+    { "id": 1, "title": "Biz haqimizda", "path": "biz-haqimizda" },
+    { "id": 2, "title": "Mashqlar", "path": "mashqlar" },
+    { "id": 3, "title": "Retseptlar", "path": "retseptlar" },
+    { "id": 4, "title": "Do'kon", "path": "dokon" },
+    { "'id": 5, "title": "Kirish", "path": "kirish" },
+    { "id": 6, "title": "Ro'yxatdan o'tish", "path": "royxatdan-otish" }
+  ],
+  "Banner": {
+    "sub-title": "tanangizni",
+    "title": "shakllantiring",
+    "info": "Bizda shaxsiy murabbiylar, zamonaviy sport jihozlari va turli xil mashg'ulot dasturlari mavjud. Sizni tanangizni shakllantirish yo‘lida qo‘llab-quvvatlashga va sog‘lom hayot sari yetaklashga tayyormiz. BM-fit bilan o‘z maqsadlaringizga erishing!"
+  },
+  "Hero-1": {
+    "title": "Bepul mashqlar to'plami",
+    "programs": [
+      {
+        "title": "Oson mashqlar",
+        "image": "/images/1.svg"
+      },
+      {
+        "title": "O'rtacha qiyin mashq",
+        "image": "/images/2.svg"
+      },
+      {
+        "title": "Vazn yo'qotish uchun mashq",
+        "image": "/images/3.svg"
+      },
+      {
+        "title": "Uskunalarsiz mashq",
+        "image": "/images/3.svg"
+      },
+      {
+        "title": "Qiyin mashqlar",
+        "image": "/images/3.svg"
+      }
+    ],
+    "button": "Hozir boshlang"
+  },
+  "Hero-2": {
     "title": "Bizning mahsulotlarimiz",
     "viewAllProducts": "Barcha mahsulotlar",
     "products": [
-        {
-            "title": "Sumka",
-            "image": "/images/t-shirt-1.svg"
-        },
-        {
-            "title": "Ko'ylak",
-            "image": "/images/t-shirt-2.svg"
-        },
-        {
-            "title": "Suv idish",
-            "image": "/images/t-shirt-3.svg"
-        },
-        {
-            "title": "Ko'ylak",
-            "image": "/images/t-shirt-2.svg"
-        }
+      {
+        "title": "Sumka",
+        "image": "/images/t-shirt-1.svg"
+      },
+      {
+        "title": "Ko'ylak",
+        "image": "/images/t-shirt-2.svg"
+      },
+      {
+        "title": "Suv idish",
+        "image": "/images/t-shirt-3.svg"
+      },
+      {
+        "title": "Ko'ylak",
+        "image": "/images/t-shirt-2.svg"
+      }
     ]
-}
-
+  }
 }
