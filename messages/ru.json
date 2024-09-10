@@ -1,63 +1,69 @@
 {
-  "Navbar": [
-    {
-      "id": 0,
-      "title": "Главная",
-      "path": "/"
-    },
-    { "id": 1, "title": "О нас", "path": "o-nas" },
-    { "id": 2, "title": "Упражнения", "path": "uprazhneniya" },
-    { "id": 3, "title": "Рецепты", "path": "recepty" },
-    { "id": 4, "title": "Магазин", "path": "magazin" },
-    { "id": 5, "title": "Вход", "path": "vhod" },
-    { "id": 6, "title": "Регистрация", "path": "registratsiya" }
-  ],
-  "Hero-1": {
-    "title": "Бесплатные программы тренировок",
-    "programs": [
-      {
-        "title": "Легкие упражнения",
-        "image": "/images/1.svg"
-      },
-      {
-        "title": "Упражнения средней сложности",
-        "image": "/images/2.svg"
-      },
-      {
-        "title": "Упражнения для похудения",
-        "image": "/images/3.svg"
-      },
-      {
-        "title": "Упражнения без оборудования",
-        "image": "/images/3.svg"
-      },
-      {
-        "title": "Тяжелые упражнения",
-        "image": "/images/3.svg"
-      }
+    "Navbar": [
+        {
+            "id": 0,
+            "title": "Главная",
+            "path": "/"
+        },
+        { "id": 1, "title": "О нас", "path": "o-nas" },
+        { "id": 2, "title": "Упражнения", "path": "uprazhneniya" },
+        { "id": 3, "title": "Рецепты", "path": "recepty" },
+        { "id": 4, "title": "Магазин", "path": "magazin" },
+        { "id": 5, "title": "Вход", "path": "vhod" },
+        { "id": 6, "title": "Регистрация", "path": "registratsiya" }
     ],
-    "button": "Начать сейчас"
-  },
-  "Hero-2": {
-    "title": "наши продукты",
-    "viewAllProducts": "Просмотреть все продукты",
-    "products": [
-      {
-        "title": "Сумка",
-        "image": "/images/t-shirt-1.svg"
-      },
-      {
-        "title": "Рубашка",
-        "image": "/images/t-shirt-2.svg"
-      },
-      {
-        "title": "Бутылка",
-        "image": "/images/t-shirt-3.svg"
-      },
-      {
-        "title": "Рубашка",
-        "image": "/images/t-shirt-2.svg"
-      }
-    ]
-  }
+    "Hero-1": {
+        "title": "Бесплатные программы тренировок",
+        "programs": [
+            {
+                "title": "Легкие упражнения",
+                "image": "/images/1.svg"
+            },
+            {
+                "title": "Упражнения средней сложности",
+                "image": "/images/2.svg"
+            },
+            {
+                "title": "Упражнения для похудения",
+                "image": "/images/3.svg"
+            },
+            {
+                "title": "Упражнения без оборудования",
+                "image": "/images/3.svg"
+            },
+            {
+                "title": "Тяжелые упражнения",
+                "image": "/images/3.svg"
+            }
+        ],
+        "button": "Начать сейчас"
+    },
+    "Hero-2": {
+        "title": "наши продукты",
+        "viewAllProducts": "Просмотреть все продукты",
+        "products": [
+            {
+                "title": "Сумка",
+                "image": "/images/t-shirt-1.svg"
+            },
+            {
+                "title": "Рубашка",
+                "image": "/images/t-shirt-2.svg"
+            },
+            {
+                "title": "Бутылка",
+                "image": "/images/t-shirt-3.svg"
+            },
+            {
+                "title": "Рубашка",
+                "image": "/images/t-shirt-2.svg"
+            }
+        ]
+    },
+    "Hero-5": {
+        "title": "Свяжитесь с нами",
+        "inputName": "Введите ваше имя",
+        "inputEmail": "Введите вашу почту",
+        "inputMessage": "Введите ваше сообщение"
+    }
 }
