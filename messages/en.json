@@ -12,6 +12,12 @@
     { "id": 5, "title": "Login", "path": "login" },
     { "id": 6, "title": "Register", "path": "register" }
   ],
+  "Banner": {
+    "sub-title": "make your",
+    "title": "Body shape",
+    "info": "We offer personal trainers, modern fitness equipment, and various workout programs. We are here to support you on your journey to shaping your body and leading a healthy lifestyle. Achieve your goals with BM-fit!",
+    "button": "Get started"
+  },
   "Hero-1": {
     "title": "Free Workout Programs",
     "programs": [
