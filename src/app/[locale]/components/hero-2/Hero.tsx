@@ -16,7 +16,7 @@ const Hero = () => {
 
     return (
         <div className="px-20 py-10 xs:px-10">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between xs:flex-col xs:gap-4">
                 <HeroTitle className="uppercase text-2xl" prefix>
                     {t("title")}
                 </HeroTitle>
@@ -29,11 +29,11 @@ const Hero = () => {
                 </Button>
             </div>
 
-            <div className="mt-10 grid grid-cols-[repeat(auto-fill,minmax(320px,320px))] justify-between max-[770px]:justify-center">
+            <div className="mt-10 grid grid-cols-[repeat(auto-fill,minmax(320px,320px))] justify-between xs:justify-center">
                 {heroProductData.map((pro, index) => (
                     <div
                         key={index}
-                        className="w-full h-[350px] relative cursor-pointer group max-[770px]:mt-6"
+                        className="w-full h-[350px] relative cursor-pointer group xs:mt-6"
                     >
                         <div className="absolute inset-0 flex items-center justify-center z-20">
                             <Image

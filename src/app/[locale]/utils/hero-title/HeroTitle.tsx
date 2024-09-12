@@ -19,8 +19,8 @@ const HeroTitle = ({ children, className, prefix }: HeroTitleProps) => {
         <div
             className={`flex items-center font-semibold text-extra ${className}`}
         >
-            <p className="text-2xl">{prefix ? "///" : ""}</p>
-            <p className={`text-4xl ${className}`}>{children}</p>
+            <p className="text-2xl xs:text-xl">{prefix ? "///" : ""}</p>
+            <p className={`text-4xl xs:text-2xl ${className}`}>{children}</p>
         </div>
     );
 };

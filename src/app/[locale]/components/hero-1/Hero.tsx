@@ -16,11 +16,11 @@ const Hero = () => {
   const heroCardData = t.raw("programs") as Array<HeroCardType>;
 
   return (
-    <div className="px-20 pb-10">
-      <HeroTitle className="text-white mb-6">{t("title")}</HeroTitle>
+    <div className="px-20 py-10 xs:px-10 flex flex-col gap-4">
+      <HeroTitle className="text-white">{t("title")}</HeroTitle>
 
       <div>
-        <div className="grid grid-cols-[repeat(auto-fill,minmax(230px,230px))] gap-6 justify-between max-[645px]:justify-center max-[645px]:grid-cols-[repeat(auto-fill,minmax(300px,300px))]">
+        <div className="grid grid-cols-[repeat(auto-fill,minmax(230px,230px))] gap-6 justify-between xs:justify-center xs:grid-cols-[repeat(auto-fill,minmax(300px,300px))]">
           {heroCardData.map((card, index) => (
             <div
               key={index}
