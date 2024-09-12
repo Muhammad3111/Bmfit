@@ -18,7 +18,7 @@ export default function Banner() {
           <p className="text-base w-[70%] xs:w-full font-normal xs:text-center">{t("info")}</p>
           <Button
             type="contained"
-            className="hover:text-white hover:bg-transparent hover:border hover:border-extra duration-300 mx-auto"
+            className="hover:text-white hover:bg-transparent hover:border hover:border-extra duration-300 xs:mx-auto"
           >
             {t("button")}
           </Button>

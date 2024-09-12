@@ -42,58 +42,34 @@
         "image": "/images/3.svg"
       }
     ],
-    "Hero-1": {
-        "title": "Free Workout Programs",
-        "programs": [
-            {
-                "title": "Easy Exercises",
-                "image": "/images/1.svg"
-            },
-            {
-                "title": "Moderate Exercises",
-                "image": "/images/2.svg"
-            },
-            {
-                "title": "Weight Loss Exercises",
-                "image": "/images/3.svg"
-            },
-            {
-                "title": "No Equipment Exercises",
-                "image": "/images/3.svg"
-            },
-            {
-                "title": "Hard Exercises",
-                "image": "/images/3.svg"
-            }
-        ],
-        "button": "Start Now"
-    },
-    "Hero-2": {
-        "title": "our products",
-        "viewAllProducts": "View All Products",
-        "products": [
-            {
-                "title": "Bag",
-                "image": "/images/t-shirt-1.svg"
-            },
-            {
-                "title": "Shirt",
-                "image": "/images/t-shirt-2.svg"
-            },
-            {
-                "title": "Bottle",
-                "image": "/images/t-shirt-3.svg"
-            },
-            {
-                "title": "Shirt",
-                "image": "/images/t-shirt-2.svg"
-            }
-        ]
-    },
-    "Hero-5": {
-        "title": "Contact Us",
-        "inputName": "Enter your name",
-        "inputEmail": "Enter your email",
-        "inputMessage": "Enter your message"
-    }
+    "button": "Start Now"
+  },
+  "Hero-2": {
+    "title": "our products",
+    "viewAllProducts": "View All Products",
+    "products": [
+      {
+        "title": "Bag",
+        "image": "/images/t-shirt-1.svg"
+      },
+      {
+        "title": "Shirt",
+        "image": "/images/t-shirt-2.svg"
+      },
+      {
+        "title": "Bottle",
+        "image": "/images/t-shirt-3.svg"
+      },
+      {
+        "title": "Shirt",
+        "image": "/images/t-shirt-2.svg"
+      }
+    ]
+  },
+  "Hero-5": {
+    "title": "Contact Us",
+    "inputName": "Enter your name",
+    "inputEmail": "Enter your email",
+    "inputMessage": "Enter your message"
+  }
 }

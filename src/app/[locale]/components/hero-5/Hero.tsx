@@ -7,7 +7,7 @@ const Hero = () => {
     const t = useTranslations("Hero-5");
 
     return (
-        <div className="px-20 xs:px-10">
+        <div className="px-20 py-10 xs:px-10">
             <HeroTitle prefix className="text-2xl">
                 {t("title")}
             </HeroTitle>

@@ -16,7 +16,9 @@ export default function Hero() {
   return (
     <div className="px-20 py-10 xs:px-10">
       <div className="flex flex-col gap-4">
-        <HeroTitle>Gallery</HeroTitle>
+        <HeroTitle prefix className="uppercase">
+          Gallery
+        </HeroTitle>
         <div className="grid lg:grid-cols-6 gap-10 xs:grid-cols-2 sm:grid-cols-3">
           {gallery.map((image, index) => (
             <div
