@@ -18,7 +18,7 @@ export default function Navbar() {
   const Items = t.raw("Navbar") as Array<MenuItems>;
 
   return (
-    <div className="px-20 xs:hidden sm:block">
+    <div className="px-20 xs:hidden sm:hidden md:hidden lg:block">
       <div className="flex items-center justify-between py-10">
         <div className="bg-white rounded-md px-2">
           <Image

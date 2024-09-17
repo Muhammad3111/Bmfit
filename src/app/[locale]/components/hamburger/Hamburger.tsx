@@ -40,7 +40,10 @@ export const Hamburger = () => {
       ref={containerRef}
       id="hamburger"
     >
-      <motion.div className="background" variants={sidebar} />
+      <motion.div
+        className="absolute top-0 left-0 bottom-0 xs:w-[300px] sm:w-[600px]  bg-white"
+        variants={sidebar}
+      />
       <Navigation />
       <MenuToggle toggle={() => toggleOpen()} />
     </motion.div>
