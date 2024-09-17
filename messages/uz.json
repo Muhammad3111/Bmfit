@@ -1,75 +1,82 @@
 {
-  "Navbar": [
-    {
-      "id": 0,
-      "title": "Bosh sahifa",
-      "path": "/"
-    },
-    { "id": 1, "title": "Biz haqimizda", "path": "biz-haqimizda" },
-    { "id": 2, "title": "Mashqlar", "path": "mashqlar" },
-    { "id": 3, "title": "Retseptlar", "path": "retseptlar" },
-    { "id": 4, "title": "Do'kon", "path": "dokon" },
-    { "'id": 5, "title": "Kirish", "path": "kirish" },
-    { "id": 6, "title": "Ro'yxatdan o'tish", "path": "royxatdan-otish" }
-  ],
-  "Banner": {
-    "sub-title": "tanangizni",
-    "title": "shakllantiring",
-    "info": "Bizda shaxsiy murabbiylar, zamonaviy sport jihozlari va turli xil mashg'ulot dasturlari mavjud. Sizni tanangizni shakllantirish yo‘lida qo‘llab-quvvatlashga va sog‘lom hayot sari yetaklashga tayyormiz. BM-fit bilan o‘z maqsadlaringizga erishing!",
-    "button": "Hozir boshlang"
-  },
-  "Hero-1": {
-    "title": "Bepul mashqlar to'plami",
-    "programs": [
-      {
-        "title": "Oson mashqlar",
-        "image": "/images/1.svg"
-      },
-      {
-        "title": "O'rtacha qiyin mashq",
-        "image": "/images/2.svg"
-      },
-      {
-        "title": "Vazn yo'qotish uchun mashq",
-        "image": "/images/3.svg"
-      },
-      {
-        "title": "Uskunalarsiz mashq",
-        "image": "/images/3.svg"
-      },
-      {
-        "title": "Qiyin mashqlar",
-        "image": "/images/3.svg"
-      }
+    "Navbar": [
+        {
+            "id": 0,
+            "title": "Bosh sahifa",
+            "path": "/"
+        },
+        { "id": 1, "title": "Biz haqimizda", "path": "biz-haqimizda" },
+        { "id": 2, "title": "Mashqlar", "path": "mashqlar" },
+        { "id": 3, "title": "Retseptlar", "path": "retseptlar" },
+        { "id": 4, "title": "Do'kon", "path": "dokon" },
+        { "'id": 5, "title": "Kirish", "path": "kirish" },
+        { "id": 6, "title": "Ro'yxatdan o'tish", "path": "royxatdan-otish" }
     ],
-    "button": "Hozir boshlang"
-  },
-  "Hero-2": {
-    "title": "Mahsulotlarimiz",
-    "viewAllProducts": "Barcha mahsulotlar",
-    "products": [
-      {
-        "title": "Sumka",
-        "image": "/images/t-shirt-1.svg"
-      },
-      {
-        "title": "Ko'ylak",
-        "image": "/images/t-shirt-2.svg"
-      },
-      {
-        "title": "Suv idish",
-        "image": "/images/t-shirt-3.svg"
-      },
-      {
-        "title": "Ko'ylak",
-        "image": "/images/t-shirt-2.svg"
-      }
-    ]
-  },
-  "Hero-5": {
-    "title": "Biz bilan bog‘lanish",
-    "inputName": "Ismingizni kiriting",
-    "inputEmail": "Emailingizni kiriting",
-    "inputMessage": "Xabaringizni kiriting"
-  }
+    "Banner": {
+        "sub-title": "tanangizni",
+        "title": "shakllantiring",
+        "info": "Bizda shaxsiy murabbiylar, zamonaviy sport jihozlari va turli xil mashg'ulot dasturlari mavjud. Sizni tanangizni shakllantirish yo‘lida qo‘llab-quvvatlashga va sog‘lom hayot sari yetaklashga tayyormiz. BM-fit bilan o‘z maqsadlaringizga erishing!",
+        "button": "Hozir boshlang"
+    },
+    "Hero-1": {
+        "title": "Bepul mashqlar to'plami",
+        "programs": [
+            {
+                "title": "Oson mashqlar",
+                "image": "/images/1.svg"
+            },
+            {
+                "title": "O'rtacha qiyin mashq",
+                "image": "/images/2.svg"
+            },
+            {
+                "title": "Vazn yo'qotish uchun mashq",
+                "image": "/images/3.svg"
+            },
+            {
+                "title": "Uskunalarsiz mashq",
+                "image": "/images/3.svg"
+            },
+            {
+                "title": "Qiyin mashqlar",
+                "image": "/images/3.svg"
+            }
+        ],
+        "button": "Hozir boshlang"
+    },
+    "Hero-2": {
+        "title": "Mahsulotlarimiz",
+        "viewAllProducts": "Barcha mahsulotlar",
+        "products": [
+            {
+                "title": "Sumka",
+                "image": "/images/t-shirt-1.svg"
+            },
+            {
+                "title": "Ko'ylak",
+                "image": "/images/t-shirt-2.svg"
+            },
+            {
+                "title": "Suv idish",
+                "image": "/images/t-shirt-3.svg"
+            },
+            {
+                "title": "Ko'ylak",
+                "image": "/images/t-shirt-2.svg"
+            }
+        ]
+    },
+    "Hero-5": {
+        "title": "Biz bilan bog‘lanish",
+        "inputName": "Ismingizni kiriting",
+        "inputEmail": "Emailingizni kiriting",
+        "inputMessage": "Xabaringizni kiriting"
+    },
+    "About": {
+        "sub-title": "ko'proq natija olish",
+        "title": "Fitness Sayohatingiz",
+        "join": "Jamiyatga qo'shiling va yutuqlaringizni kuzatib boring",
+        "info": "Hamma narsaning boshlanishi bu xatolardan holi. Har qanday yutuq va mehnatning natijasi sifatida muvaffaqiyat keladi, biroq bu vaqt va mehnat talab qiladi. Hech kim bu yutuqlarni tayyor holatda qo'lga kirita olmaydi.",
+        "smile": "1000+ Jismoniy faollik sizning miya salomatligingizni yaxshilaydi va vaznni boshqarishda yordam beradi."
+    }
 }

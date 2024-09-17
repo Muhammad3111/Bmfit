@@ -1,75 +1,82 @@
 {
-  "Navbar": [
-    {
-      "id": 0,
-      "title": "Home",
-      "path": "/"
-    },
-    { "id": 1, "title": "About Us", "path": "about-us" },
-    { "id": 2, "title": "Exercises", "path": "exercises" },
-    { "id": 3, "title": "Recipes", "path": "recipes" },
-    { "id": 4, "title": "Shop", "path": "shop" },
-    { "id": 5, "title": "Login", "path": "login" },
-    { "id": 6, "title": "Register", "path": "register" }
-  ],
-  "Banner": {
-    "sub-title": "make your",
-    "title": "Body shape",
-    "info": "We offer personal trainers, modern fitness equipment, and various workout programs. We are here to support you on your journey to shaping your body and leading a healthy lifestyle. Achieve your goals with BM-fit!",
-    "button": "Get started"
-  },
-  "Hero-1": {
-    "title": "Free Workout Programs",
-    "programs": [
-      {
-        "title": "Easy Exercises",
-        "image": "/images/1.svg"
-      },
-      {
-        "title": "Moderate Exercises",
-        "image": "/images/2.svg"
-      },
-      {
-        "title": "Weight Loss Exercises",
-        "image": "/images/3.svg"
-      },
-      {
-        "title": "No Equipment Exercises",
-        "image": "/images/3.svg"
-      },
-      {
-        "title": "Hard Exercises",
-        "image": "/images/3.svg"
-      }
+    "Navbar": [
+        {
+            "id": 0,
+            "title": "Home",
+            "path": "/"
+        },
+        { "id": 1, "title": "About Us", "path": "about-us" },
+        { "id": 2, "title": "Exercises", "path": "exercises" },
+        { "id": 3, "title": "Recipes", "path": "recipes" },
+        { "id": 4, "title": "Shop", "path": "shop" },
+        { "id": 5, "title": "Login", "path": "login" },
+        { "id": 6, "title": "Register", "path": "register" }
     ],
-    "button": "Start Now"
-  },
-  "Hero-2": {
-    "title": "our products",
-    "viewAllProducts": "View All Products",
-    "products": [
-      {
-        "title": "Bag",
-        "image": "/images/t-shirt-1.svg"
-      },
-      {
-        "title": "Shirt",
-        "image": "/images/t-shirt-2.svg"
-      },
-      {
-        "title": "Bottle",
-        "image": "/images/t-shirt-3.svg"
-      },
-      {
-        "title": "Shirt",
-        "image": "/images/t-shirt-2.svg"
-      }
-    ]
-  },
-  "Hero-5": {
-    "title": "Contact Us",
-    "inputName": "Enter your name",
-    "inputEmail": "Enter your email",
-    "inputMessage": "Enter your message"
-  }
+    "Banner": {
+        "sub-title": "make your",
+        "title": "Body shape",
+        "info": "We offer personal trainers, modern fitness equipment, and various workout programs. We are here to support you on your journey to shaping your body and leading a healthy lifestyle. Achieve your goals with BM-fit!",
+        "button": "Get started"
+    },
+    "Hero-1": {
+        "title": "Free Workout Programs",
+        "programs": [
+            {
+                "title": "Easy Exercises",
+                "image": "/images/1.svg"
+            },
+            {
+                "title": "Moderate Exercises",
+                "image": "/images/2.svg"
+            },
+            {
+                "title": "Weight Loss Exercises",
+                "image": "/images/3.svg"
+            },
+            {
+                "title": "No Equipment Exercises",
+                "image": "/images/3.svg"
+            },
+            {
+                "title": "Hard Exercises",
+                "image": "/images/3.svg"
+            }
+        ],
+        "button": "Start Now"
+    },
+    "Hero-2": {
+        "title": "our products",
+        "viewAllProducts": "View All Products",
+        "products": [
+            {
+                "title": "Bag",
+                "image": "/images/t-shirt-1.svg"
+            },
+            {
+                "title": "Shirt",
+                "image": "/images/t-shirt-2.svg"
+            },
+            {
+                "title": "Bottle",
+                "image": "/images/t-shirt-3.svg"
+            },
+            {
+                "title": "Shirt",
+                "image": "/images/t-shirt-2.svg"
+            }
+        ]
+    },
+    "Hero-5": {
+        "title": "Contact Us",
+        "inputName": "Enter your name",
+        "inputEmail": "Enter your email",
+        "inputMessage": "Enter your message"
+    },
+    "About": {
+        "sub-title": "get more out of your",
+        "title": "Fitness Journey",
+        "join": "Join the community to track your progress",
+        "info": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit",
+        "smile": "1000+ Being physically active can improve your brain health, help manage weight,"
+    }
 }
